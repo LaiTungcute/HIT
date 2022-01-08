@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: 0;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* header */
+.container .header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* justify-content: space-around; */
+    line-height: 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.header .logo {
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.header .menu ul{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    color: black;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(233, 224, 224, 0.479);
+}
+
+.header .sign {
+    margin-left: 50px;
+}
+
+.sign button {
+    border: 1px solid rgba(244, 123, 42, 0.5);
+    padding: 5px 32px;
+}
+
+.sign button:hover a{
+    color: #fff;
+}
+
+.sign button:hover {
+    background-color: orange;
+}
+
+.sign button a {
+    color: orange;
+}
+
+.sign .sign-in {
+    border-radius: 10px 0 0 10px;
+    margin-right: 5px;
+}
+
+.sign .sign-up {
+    border-radius: 0px 10px 10px 0;
+}
+/* 
+.body {
+    margin-top: 60px;
+} */
+
+/* intro */
+
+.body #intro {
+    /* margin-top: 60px; */
+   width: 100%;
+   height: 70%;
+   position: relative;
+}
+
+#intro img {
+    margin-top: 60px;
+    width: 100%;
+    height: 70%;
+}
+
+#intro .content {
+    top: 60px;
+    left: calc(50% - 500px);
+    right: calc(50% - 500px);
+    bottom: 0;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background: rgba(255,255,255,0.75);
+}
+
+#intro .content h3,#intro .content h1,#intro .content p {
+    text-align: center;
+}
+
+/* Sự kiện */
+
+#suKien {
+ margin-top: 50px;  
+ margin-bottom: 50px; 
+}
+
+#suKien >h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#suKien img {
+    margin-left: 5px;
+    width: 570px;
+    border-radius: 15px;
+    height: 300px;
+}
+
+#suKien .content {
+    width: 80%;
+    background-color: rgba(240, 180, 70, 0.781);
+    border-radius: 15px;
+    margin-left: 10%;
+    display: flex;
+}
+
+#suKien .content .content-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#suKien .content .content-2 >h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#suKien .content .content-2 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#suKien .content .content-2 button {
+    /* border: 1px solid #000; */
+    padding: 10px 20px;
+    background-color: rgba(240, 180, 70, 0.781);
+}
+
+#suKien .content .content-2 button:hover {
+    background-color: rgba(255, 166, 0, 0.404);
+}
+
+#suKien .content .content-2 a {
+    font-size: 15px;
+}
+
+#chu {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 166, 0, 0.637);
+    border-radius: 10px;
+}
+
+#chu h1, #chu p, #chu h3 {
+    text-align: center;
+}
+
+#chu >h1,#chu >p {
+    max-width: 400px;
+    margin-left: 34%;
+    margin-bottom: 20px;
+}
+
+#chu img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin-left: 28px;
+}
+
+#chu .content{
+    display: flex;
+    justify-content: space-around;
+}
